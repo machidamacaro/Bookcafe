@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Book cafe mattari</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="contact_header">
+            <div class="top">
+                <h1>Book cafe mattari</h1>
+                <nav>
+                    <ul class="main_nav">
+                        <li><a href="index.html">Top</a></li>
+                        <li><a href="menu.html">メニュー</a></li>
+                        <li><a href="contact.html">問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+       <section class="contact">
+        <h2>お問い合わせ</h2>
+            <form class="form">
+                <div>
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="your-name">
+                </div>
+                <div>
+                    <label for="email">アドレス</label>
+                    <input type="email" id="email" name="your-email">
+                </div>
+                <div>
+                    <label for="message">内容</label>
+                    <textarea id="message" name="your-message"></textarea>
+                </div>
+                <div id="button">
+                <input type="submit" class="button" value="送信">
+                </div>
+            </form>       
+       </section>
+        <footer>
+            <p>Copyright<small>&copy;</small>All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
